@@ -1,6 +1,6 @@
 <template>
     <div>
-        home
+        home华工科技感觉
     </div>
 </template>
 
