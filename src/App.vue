@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+
     <router-view/>
+    <foot></foot>
   </div>
 </template>
-
+<script>
+  import Foot from './components/footerGuide/FooterGuide'
+  export default {
+    name:'App',
+    components:{
+      Foot
+    }
+  }
+</script>
 <style>
 
 </style>

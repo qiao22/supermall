@@ -1,12 +1,12 @@
 <template>
     <div>
-        <p>你在讲谁的故事 </p>
+        profile
     </div>
 </template>
 
 <script>
     export default {
-        name: "about"
+        name: "Profile"
     }
 </script>
 
